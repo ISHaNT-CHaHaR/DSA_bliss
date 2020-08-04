@@ -26,7 +26,7 @@
 // 5. Router algorithms
 // 6. Form of a multi-stage decision-making (see business chess).
 
-//#include <iostream>
+// #include <iostream>
 using namespace std;
 
 struct node
@@ -47,6 +47,8 @@ struct node *newNode(int data)
 
 int main()
 {
+
+    
     struct node *root = newNode(1);
 
     root->left = newNode(2);
