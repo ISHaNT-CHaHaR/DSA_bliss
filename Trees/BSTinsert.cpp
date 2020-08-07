@@ -47,7 +47,7 @@ int main()
 
     struct node *Node = newNode(40);
 
-    NewNode(Node, 30);
+ \   NewNode(Node, 30);
     NewNode(Node, 50);
     NewNode(Node, 70);
     //  NewNode(Node,20);
