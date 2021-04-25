@@ -13,16 +13,16 @@ struct p{
 int main(){
 
 
-        struct p p1[] = {1,2,3,4,5};
-        struct p *ptr = p1;
-        cout<<ptr->x<<(ptr+2)->y;
-        // int p = 10, q = 20, r;
+        // struct p p1[] = {1,2,3,4,5};
+        // struct p *ptr = p1;
+        // cout<<ptr->x<<(ptr+2)->y;
+        int p = 10, q = 20, r;
 
-        // if(r = p = 5 || q>20){
-        //     cout<<r<<endl;
-        // }else{
-        //     cout<<"NO Output!";
-        // }
+        if(r = p = 5 || q>20){
+            cout<<r<<endl;
+        }else{
+            cout<<"NO Output!";
+        }
 
 
         // int y = 0;
