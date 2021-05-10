@@ -7,7 +7,15 @@ struct p{
     int y;
 
 };
-
+int fun(int n){
+    if(n==0|| n==1){
+        return n;
+    }
+    if(n%3 != 0){
+        return 0;
+    }
+    return fun(n/3);
+}
 
 
 int main(){
@@ -16,13 +24,15 @@ int main(){
         // struct p p1[] = {1,2,3,4,5};
         // struct p *ptr = p1;
         // cout<<ptr->x<<(ptr+2)->y;
-        int p = 10, q = 20, r;
 
-        if(r = p = 5 || q>20){
-            cout<<r<<endl;
-        }else{
-            cout<<"NO Output!";
-        }
+
+        // int p = 10, q = 20, r;
+
+        // if(r = p = 5 || q>20){
+        //     cout<<r<<endl;
+        // }else{
+        //     cout<<"NO Output!";
+        // }
 
 
         // int y = 0;
@@ -50,6 +60,8 @@ int main(){
 
   
     // cout<<b<<endl;
+
+    cout<<fun(9);
     
     return 0;
 }

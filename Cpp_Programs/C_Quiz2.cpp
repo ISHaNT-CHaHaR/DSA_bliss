@@ -26,5 +26,5 @@ int main(){
 }
 
 void foo(int *p){
-    cout<<*p;
+    cout<<p+1;
 }

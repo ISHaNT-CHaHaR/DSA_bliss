@@ -29,12 +29,42 @@ int main(){
 
 
 
-        unsigned int x = 4294967293;
+        // unsigned int x = 4294967293;
 
-        x = x+3;
+        // x = x+3;
 
-        cout<<x<<endl; //// 0 
+        // cout<<x<<endl; //// 0 
 
+// unsigned num;
+// cout<<num;
+//  int a[] = {2,3,4};
+// int b[] = {2,3,4};
+// if(a == b){
+//     cout<<1;
+// }
+// else{
+//     cout<<0;
+// }
+
+
+
+
+// int x = -5;
+// if(x){
+//     cout<<x;
+// }
+
+
+// char abc[14] = "C Programming";
+
+// cout<<abc + abc[3] - abc[4];
+    // int *p, a =32;
+    // p = &32;
+    // cout<<*p; 
+    
+    
+    
+    
     return 0;
 
 

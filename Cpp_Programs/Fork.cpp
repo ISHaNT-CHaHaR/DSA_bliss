@@ -34,9 +34,8 @@ int main(){
     // cout<<" 4 ";
 int c =0;
     fork();
-    for(int i=0;i<2;i++){
-        fork();
-        cout<<" *  ";
+    for(int i=0;i<100;i++){
+        fork(); 
         
     }
 
