@@ -11,20 +11,24 @@ class selection{
      };
 
 
-void selection::selection_sort(int arr[], int size){
-        int min_index;
-        int temp;
+void selection::selection_sort(int arr[], int size)
+{    
+        int temp,i,j;
 
-        for(int i=0; i<size;i++){
-            min_index = find_min_index(arr, i, size-1);
-            cout<<min_index;
-            if(i!= min_index){
-                // temp = arr[i];
-                // arr[i] = arr[min_index];`
-                // arr[min_index] = temp;
+        for(i=0;i<size-1;i++)
+        {
+            for(j=i+1;j<size;j++)
+            {
+                if(arr[i]  > arr[j])
+                {
+                        temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
+                }
             }
         }
 }
+
 int selection::find_min_index(int arr[], int start, int end){
         int pos;
             int min = arr[0];
@@ -51,6 +55,9 @@ void selection::swap(int *a, int *b){
     *b =  temp;
 }
 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 int main(){
 
     int n;
@@ -58,19 +65,22 @@ int main(){
 
     int arr[n];
 
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++)
+    {
         cin>>arr[i];
     }
-int size = sizeof(arr)/sizeof(int);
-    selection obj;
+    
+    int size = sizeof(arr)/sizeof(int);
+            
+                selection obj;
 
-        obj.print_array(arr, size);
+                obj.print_array(arr, size);
 
-        obj.selection_sort(arr, size-1);
+                obj.selection_sort(arr, size);
 
-        cout<<"SELECTION Sort: "<<endl;
+                cout<<"SELECTION Sort: "<<endl;
 
-        // obj.print_array(arr, size);
+                obj.print_array(arr, size);
 
     return 0;
 }
