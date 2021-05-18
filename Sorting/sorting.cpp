@@ -8,11 +8,30 @@ class selection{
      void print_array(int arr[], int size);
      void swap(int *a, int *b);
      int find_min_index(int arr[], int start, int end);
+
+     void insertion_sort(int arr[], int size);
      };
 
+void selection::insertion_sort(int arr[], int size)
+{
+    
+    int key;    int i,j;
+    for(i=1; i<size; i++){
+            key = arr[i];
+            j = i-1;
+
+            while(j >= 0 && arr[j] > key){
+                arr[j+1] = arr[j];
+                j = j-1;
+            }
+            arr[j+1] = key;
+    }
+    cout<<"Insertion Sort"<<endl;
+    print_array(arr, size);
+}
 
 void selection::selection_sort(int arr[], int size)
-{    
+{    print_array(arr, size);
         int temp,i,j;
 
         for(i=0;i<size-1;i++)
@@ -27,6 +46,9 @@ void selection::selection_sort(int arr[], int size)
                 }
             }
         }
+        cout<<"SELECTION Sort: "<<endl;
+        print_array(arr, size);
+
 }
 
 int selection::find_min_index(int arr[], int start, int end){
@@ -74,13 +96,11 @@ int main(){
             
                 selection obj;
 
-                obj.print_array(arr, size);
+//                obj.selection_sort(arr, size);
 
-                obj.selection_sort(arr, size);
+                obj.insertion_sort(arr, size);
 
-                cout<<"SELECTION Sort: "<<endl;
-
-                obj.print_array(arr, size);
+                
 
     return 0;
 }
