@@ -26,7 +26,7 @@ int floorRoot(int k){
 int main()
 {
     int n, k, f;
-    n=;
+    n=1;
     k = floorRoot(n);
     cout<<k;
 }

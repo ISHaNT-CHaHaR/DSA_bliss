@@ -1,5 +1,5 @@
-// #include <iostream>
-// #include <bits/stdc++.h>
+#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 struct node
@@ -56,7 +56,7 @@ int main()
     root->right->right = newNode(7);
     root->right->right->left = newNode(9);
 
-    cout << "Diameter:  " << diameter(root);
+    cout<< "Diameter:  " << diameter(root);
 
     return 0;
 }
