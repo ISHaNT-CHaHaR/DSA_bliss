@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(){
+
 
         //     int i,n,sum;
         // cout<<"Enter a number\n";
@@ -24,15 +24,28 @@ int main(){
             // cout<< sum << " ";
             // i=i+2;}
 
-                int i, j, k, n=0;
-                int total = 0;
-                    for (i=1; i<=n; i++)
-                        for (j=1; j<=i; j++)
-                            for (k=1; k<=j; k++)
-                                total++;
-                                cout<< total <<endl;
+            //     int i, j, k, n=0;
+            //     int total = 0;
+            //         for (i=1; i<=n; i++)
+            //             for (j=1; j<=i; j++)
+            //                 for (k=1; k<=j; k++)
+            //                     total++;
+            //                     cout<< total <<endl;
 
-            cout<<i<<j<<k;
+            // cout<<i<<j<<k;
 
+        int bar(int v){
+            int x = 0;
+            {
+                while(v>0){
+                    
+                    x += bar(--v);
+                }
+
+            }
+            return v;
+        }
+int main(){ 
+    cout<<bar(3);
     return 0;
 }

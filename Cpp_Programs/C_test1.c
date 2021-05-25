@@ -3,6 +3,7 @@
 
 
 #include<stdio.h>
+#include<stdlib.h>
 // int func(int m, int n){
 //     if(n==0 || m==1){
 //             return 1;
@@ -17,7 +18,8 @@
 //     int i;
 //     char *c;
 // } st[] = {5,"become",4,"better",6,"jungle",8,"ancestor",7,"brother"};
-int main(){
+
+
 
 
 
@@ -83,10 +85,34 @@ int main(){
 // a =  5||2|1;
 // printf("%d",a);
 
+void m(int *p, int *q){
+    printf("%p %p \n",p,q );
+    int *temp;
+    temp = p;
+    p=q;
+    q = temp; 
+    printf("%p %p\n",p,q );
+}
 
-int a[] = {7,8,9};
-printf("%d ", 2[a]+ a[2]);
+int main(){
+// int a[] = {7,8,9};
+// printf("%d ", 2[a]+ a[2]);
+
+        // int aa = 2016, b =0 ;
+        // m(&aa,&b);
+        // printf("%d\n",aa);
+
+
+        int *x  = malloc(sizeof(int));
+         printf("%p\n",x);
+        
+        if(NULL == x){
+             printf("%p\n",x);
+        } 
+
+
 
 return 0;
+
 
 }
