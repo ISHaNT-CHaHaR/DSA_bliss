@@ -1,0 +1,34 @@
+Campaign ID,Campaign Name,Audience,Age,Geography,Reach(unique),Impressions(with dupes),Frequency,Clicks(with dupes),Unique Clicks,Unique Link Clicks (ULC),Click-Through Rate (CTR),Unique Click-Through Rate (Unique CTR),Amount Spent in INR,Cost Per Click (CPC),Cost per Result (CPR)
+Campaign 1,SHU_6 (Educators and Principals),Educators and Principals,45-54,"Group 1 (Australia, Canada, United Kingdom, Ghana, Nigeria, Pakistan, United States)",2867,6283,2.191489,198,145,65,3.151361,5.057551,319.38,1.613038,4.91
+Campaign 1,SHU_6 (Educators and Principals),Educators and Principals,35-44,"Group 1 (Australia, Canada, United Kingdom, Ghana, Nigeria, Pakistan, United States)",8761,15683,1.790092,484,376,154,3.086144,4.291748,835.46,1.726165,5.43
+Campaign 1,SHU_6 (Educators and Principals),Educators and Principals,55-64,"Group 1 (Australia, Canada, United Kingdom, Ghana, Nigeria, Pakistan, United States)",889,1890,2.125984,49,40,21,2.592593,4.499438,86.25,1.760117,4.11
+Campaign 1,SHU_6 (Educators and Principals),Educators and Principals,25-34,"Group 1 (Australia, Canada, United Kingdom, Ghana, Nigeria, Pakistan, United States)",11387,23283,2.0447,487,406,180,2.091655,3.565469,1092.24,2.24279,6.07
+Campaign 2,SHU_Students (Nigeria),Students,13-17,Nigeria,8516,12372,1.452795,970,696,408,7.840285,8.172851,282.21,0.290938,0.69
+Campaign 2,SHU_Students (Canada),Students,25-34,Canada,218,243,1.114679,18,18,15,7.407407,8.256881,101.06,5.614636,6.74
+Campaign 2,SHU3_ (Students Apart from India and US),Students,13-17,"Group 2 (Australia, Canada, United Kingdom, Ghana, Niger, Nigeria, Nepal, Pakistan, Thailand, Taiwan)",14753,25705,1.742357,969,698,435,3.769695,4.731241,299.51,0.309088,0.69
+Campaign 3,SHU3_ (Students Apart from India and US),Students,25-34,"Group 2 (Australia, Canada, United Kingdom, Ghana, Niger, Nigeria, Nepal, Pakistan, Thailand, Taiwan)",2066,2447,1.184414,181,141,65,7.396812,6.824782,85.57,0.472773,1.32
+Campaign 3,SHU_Students(Australia),Students,18-24,Australia,704,734,1.042614,49,46,13,6.675749,6.534091,283.17,5.778967,21.78
+Campaign 3,SHU_Students(Australia),Students,13-17,Australia,2271,2616,1.151915,61,55,28,2.331804,2.421841,475.85,7.800793,16.99
+Campaign 4,SHU3_ (Students Apart from India and US),Students,18-24,"Group 2 (Australia, Canada, United Kingdom, Ghana, Niger, Nigeria, Nepal, Pakistan, Thailand, Taiwan)",29675,39161,1.319663,2593,1994,1095,6.621384,6.719461,1193.94,0.460448,1.09
+Campaign 4,SHU_Students (Canada),Students,18-24,Canada,759,878,1.156785,52,44,34,5.922551,5.797101,294.82,5.669602,8.67
+Campaign 4,SHU_Students (Canada),Students,13-17,Canada,2330,3146,1.350215,101,84,63,3.210426,3.60515,528.08,5.228488,8.38
+Campaign 5,SHU_Students (USA),Students,13-17,USA,2159,2465,1.141732,126,111,95,5.111562,5.141269,691.28,5.486358,7.28
+Campaign 5,SHU_Students(UK),Students,18-24,UK,741,785,1.059379,39,34,20,4.968153,4.588394,255.57,6.553077,12.78
+Campaign 5,SHU_Students(Ghana),Students,13-17,Ghana,5355,8920,1.665733,180,154,93,2.017937,2.875817,177.46,0.985889,1.91
+Campaign 6,SHU_Students (India),Students,25-34,India,1721,1874,1.088902,92,76,53,4.909285,4.416037,61.21,0.665379,1.15
+Campaign 6,SHU_Students (India),Students,18-24,India,30110,35372,1.174759,1308,1162,934,3.69784,3.859183,894,0.683483,0.96
+Campaign 7,SHU_Students(Nepal),Students,25-34,Nepal,4623,9082,1.964525,246,212,83,2.708654,4.585767,188.84,0.767652,2.28
+Campaign 7,SHU_Students(Nepal),Students,18-24,Nepal,18900,36659,1.93963,849,688,306,2.315939,3.640212,634.64,0.747515,2.07
+Campaign 7,SHU_Students(Nepal),Students,13-17,Nepal,6145,19474,3.169081,325,246,129,1.668892,4.003255,211.76,0.65156,1.64
+Campaign 8,SHU_Students(Ghana),Students,18-24,Ghana,5952,6943,1.166499,284,238,98,4.090451,3.998656,378.1,1.331351,3.86
+Campaign 8,SHU_Students(Australia),Students,25-34,Australia,212,222,1.04717,9,8,3,4.054054,3.773585,91.66,10.18469,30.55
+Campaign 8,SHU_Students(UAE),Students,25-34,UAE,2892,3347,1.157331,135,102,41,4.033463,3.526971,455.49,3.373999,11.11
+Campaign 9,SHU_Students(Ghana),Students,25-34,Ghana,3717,4620,1.242938,184,160,46,3.982684,4.304547,282.22,1.533784,6.14
+Campaign 9,SHU_Students(UAE),Students,18-24,UAE,2862,3234,1.129979,72,60,27,2.226345,2.096436,316.14,4.390839,11.71
+Campaign 9,SHU_Students(UAE),Students,13-17,UAE,1579,2079,1.316656,35,32,20,1.683502,2.026599,104.63,2.98942,5.23
+Campaign 10,SHU_Students (USA),Students,18-24,USA,305,332,1.088525,43,37,28,12.95181,12.13115,159.14,3.700843,5.68
+Campaign 10,SHU_Students(UK),Students,25-34,UK,338,365,1.079882,13,11,4,3.561644,3.254438,113.58,8.736923,28.4
+Campaign 10,SHU_Students(UK),Students,13-17,UK,2557,2941,1.150176,69,60,33,2.346141,2.3465,487.52,7.065507,14.77
+Campaign 11,SHU_Students (Nigeria),Students,25-34,Nigeria,2386,2782,1.165968,304,230,117,10.92739,9.639564,117.9,0.387821,1.01
+Campaign 11,SHU_Students (Nigeria),Students,18-24,Nigeria,11027,13820,1.253287,1491,1132,548,10.78871,10.26571,542.67,0.363966,0.99
+Campaign 11,SHU_Students (USA),Students,25-34,USA,91,103,1.131868,9,8,3,8.737864,8.791209,47.26,5.251404,15.75
